@@ -1,7 +1,7 @@
 import React from 'react';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import PostList from './components/PostList';
-import PostDetails from './components/post1';
+import PostDetails from './components/PostDetail';
 
 const Router = () => {
     return (
