@@ -4,7 +4,7 @@ import CONFIG from '../config/config.json';
 import axios from 'axios';
 
 const UsePostDetails = () => {
-  // posts/1(id)
+    // posts/1(id)
     const { id } = useParams();
 
     const [detailData, setDetailData] = useState({ title: '', body: '', userId: 0 });

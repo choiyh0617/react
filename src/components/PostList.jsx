@@ -3,8 +3,7 @@ import { useNavigate } from 'react-router-dom';
 import usePosts from '../hooks/useposts';
 
 const PostList = () => {
-    const navigate = useNavigate();
-
+  const navigate = useNavigate();
   const { postsData } = usePosts();
 
   return (
